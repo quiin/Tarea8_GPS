@@ -14,6 +14,7 @@
 		9E7BA7F21BE927FE0034ECCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E7BA7F01BE927FE0034ECCD /* LaunchScreen.storyboard */; };
 		9E7BA7FD1BE927FE0034ECCD /* Tarea8_GPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7BA7FC1BE927FE0034ECCD /* Tarea8_GPSTests.swift */; };
 		9E7BA8081BE927FE0034ECCD /* Tarea8_GPSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7BA8071BE927FE0034ECCD /* Tarea8_GPSUITests.swift */; };
+		9E7BA8161BE9282B0034ECCD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7BA8151BE9282B0034ECCD /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9E7BA8031BE927FE0034ECCD /* Tarea8_GPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tarea8_GPSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7BA8071BE927FE0034ECCD /* Tarea8_GPSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarea8_GPSUITests.swift; sourceTree = "<group>"; };
 		9E7BA8091BE927FE0034ECCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E7BA8151BE9282B0034ECCD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E7BA8161BE9282B0034ECCD /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		9E7BA7DB1BE927FE0034ECCD = {
 			isa = PBXGroup;
 			children = (
+				9E7BA8151BE9282B0034ECCD /* CoreLocation.framework */,
 				9E7BA7E61BE927FE0034ECCD /* Tarea8_GPS */,
 				9E7BA7FB1BE927FE0034ECCD /* Tarea8_GPSTests */,
 				9E7BA8061BE927FE0034ECCD /* Tarea8_GPSUITests */,
